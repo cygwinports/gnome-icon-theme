@@ -1,0 +1,75 @@
+gnome-icon-theme
+-------------------------------------------
+GNOME 2.x icon theme.
+
+Runtime requirements:
+  hicolor-icon-theme-0.5-1
+
+Build requirements:
+  cygwin-1.5.18-1
+  cygport-0.1.7-1
+  gawk-3.1.5-2
+  hicolor-icon-theme-0.5-1
+  make-3.80-1
+
+Canonical homepage:
+  http://art.gnome.org/
+
+Canonical download:
+  ftp://ftp.gnome.org/pub/GNOME/sources/gnome-icon-theme/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gnome-icon-theme-2.14.2-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gnome-icon-theme-2.14.2-X.cygport all
+
+This will create:
+  /usr/src/gnome-icon-theme-2.14.2-X-src.tar.bz2
+  /usr/src/gnome-icon-theme-2.14.2-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/share/doc/Cygwin/gnome-icon-theme-2.14.2.README
+  /usr/share/doc/gnome-icon-theme-2.14.2/ChangeLog
+  /usr/share/doc/gnome-icon-theme-2.14.2/COPYING
+  /usr/share/doc/gnome-icon-theme-2.14.2/INSTALL
+  /usr/share/doc/gnome-icon-theme-2.14.2/NEWS
+  /usr/share/doc/gnome-icon-theme-2.14.2/TODO
+  /usr/share/icons/gnome/12x12/*/*
+  /usr/share/icons/gnome/16x16/*/*
+  /usr/share/icons/gnome/192x192/*/*
+  /usr/share/icons/gnome/24x24/*/*
+  /usr/share/icons/gnome/32x32/*/*
+  /usr/share/icons/gnome/36x36/*/*
+  /usr/share/icons/gnome/48x48/*/*
+  /usr/share/icons/gnome/72x72/*/*
+  /usr/share/icons/gnome/96x96/*/*
+  /usr/share/icons/gnome/index.theme
+  /usr/share/icons/gnome/scalable/*/*
+  /usr/share/pkgconfig/gnome-icon-theme.pc
+
+------------------------------------------
+
+Port Notes:
+
+----- version 2.14.2-1 -----
+Version bump for GNOME 2.14.
+
+----- version 2.12.1-1 -----
+Version bump for GNOME 2.12.
+
+----- version 2.10.1-1 -----
+Version bump for GNOME 2.10.
+
+----- version 2.8.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
