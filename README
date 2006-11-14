@@ -1,16 +1,18 @@
 gnome-icon-theme
 -------------------------------------------
-GNOME 2.x icon theme.
+GNOME desktop icon theme.
 
 Runtime requirements:
   hicolor-icon-theme-0.5-1
 
 Build requirements:
-  cygwin-1.5.18-1
-  cygport-0.1.7-1
+  cygwin-1.5.21-2
+  cygport-0.2.6-1
   gawk-3.1.5-2
   hicolor-icon-theme-0.5-1
-  make-3.80-1
+  icon-naming-utils-0.8.1-1
+  make-3.81-1
+  pkg-config-0.21-1
 
 Canonical homepage:
   http://art.gnome.org/
@@ -21,26 +23,26 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnome-icon-theme-2.14.2-X-src.tar.bz2
+  unpack gnome-icon-theme-2.16.0.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnome-icon-theme-2.14.2-X.cygport all
+  cygport ./gnome-icon-theme-2.16.0.1-X.cygport all
 
 This will create:
-  /usr/src/gnome-icon-theme-2.14.2-X-src.tar.bz2
-  /usr/src/gnome-icon-theme-2.14.2-X.tar.bz2
+  /usr/src/gnome-icon-theme-2.16.0.1-X-src.tar.bz2
+  /usr/src/gnome-icon-theme-2.16.0.1-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/share/doc/Cygwin/gnome-icon-theme-2.14.2.README
-  /usr/share/doc/gnome-icon-theme-2.14.2/ChangeLog
-  /usr/share/doc/gnome-icon-theme-2.14.2/COPYING
-  /usr/share/doc/gnome-icon-theme-2.14.2/INSTALL
-  /usr/share/doc/gnome-icon-theme-2.14.2/NEWS
-  /usr/share/doc/gnome-icon-theme-2.14.2/TODO
+  /usr/share/doc/Cygwin/gnome-icon-theme-2.16.0.1.README
+  /usr/share/doc/gnome-icon-theme-2.16.0.1/ChangeLog
+  /usr/share/doc/gnome-icon-theme-2.16.0.1/COPYING
+  /usr/share/doc/gnome-icon-theme-2.16.0.1/INSTALL
+  /usr/share/doc/gnome-icon-theme-2.16.0.1/NEWS
+  /usr/share/doc/gnome-icon-theme-2.16.0.1/TODO
   /usr/share/icons/gnome/12x12/*/*
   /usr/share/icons/gnome/16x16/*/*
   /usr/share/icons/gnome/192x192/*/*
@@ -57,6 +59,9 @@ Files included in the binary package:
 ------------------------------------------
 
 Port Notes:
+
+----- version 2.16.0.1-1 -----
+Version bump for GNOME 2.16.
 
 ----- version 2.14.2-1 -----
 Version bump for GNOME 2.14.

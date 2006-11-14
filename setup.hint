@@ -1,4 +1,4 @@
 category: Gnome
 requires: hicolor-icon-theme
-sdesc: "GNOME 2.x icon theme"
-ldesc: "GNOME 2.x icon theme"
+sdesc: "GNOME desktop icon theme"
+ldesc: "GNOME desktop icon theme"
