@@ -6,7 +6,7 @@ Runtime requirements:
   hicolor-icon-theme-0.5-1
 
 Build requirements:
-  cygwin-1.5.21-2
+  cygwin-1.5.22-1
   cygport-0.2.6-1
   gawk-3.1.5-2
   hicolor-icon-theme-0.5-1
@@ -23,26 +23,26 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnome-icon-theme-2.16.0.1-X-src.tar.bz2
+  unpack gnome-icon-theme-2.16.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnome-icon-theme-2.16.0.1-X.cygport all
+  cygport ./gnome-icon-theme-2.16.1-X.cygport all
 
 This will create:
-  /usr/src/gnome-icon-theme-2.16.0.1-X-src.tar.bz2
-  /usr/src/gnome-icon-theme-2.16.0.1-X.tar.bz2
+  /usr/src/gnome-icon-theme-2.16.1-X-src.tar.bz2
+  /usr/src/gnome-icon-theme-2.16.1-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/share/doc/Cygwin/gnome-icon-theme-2.16.0.1.README
-  /usr/share/doc/gnome-icon-theme-2.16.0.1/ChangeLog
-  /usr/share/doc/gnome-icon-theme-2.16.0.1/COPYING
-  /usr/share/doc/gnome-icon-theme-2.16.0.1/INSTALL
-  /usr/share/doc/gnome-icon-theme-2.16.0.1/NEWS
-  /usr/share/doc/gnome-icon-theme-2.16.0.1/TODO
+  /usr/share/doc/Cygwin/gnome-icon-theme-2.16.1.README
+  /usr/share/doc/gnome-icon-theme-2.16.1/ChangeLog
+  /usr/share/doc/gnome-icon-theme-2.16.1/COPYING
+  /usr/share/doc/gnome-icon-theme-2.16.1/INSTALL
+  /usr/share/doc/gnome-icon-theme-2.16.1/NEWS
+  /usr/share/doc/gnome-icon-theme-2.16.1/TODO
   /usr/share/icons/gnome/12x12/*/*
   /usr/share/icons/gnome/16x16/*/*
   /usr/share/icons/gnome/192x192/*/*
@@ -59,6 +59,9 @@ Files included in the binary package:
 ------------------------------------------
 
 Port Notes:
+
+----- version 2.16.1-1 -----
+Version bump.
 
 ----- version 2.16.0.1-1 -----
 Version bump for GNOME 2.16.
