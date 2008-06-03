@@ -1,0 +1,11 @@
+inherit gnome2
+
+DESCRIPTION="GNOME Icon Themes"
+HOMEPAGE="http://art.gnome.org/"
+
+src_install() {
+	cd ${B}
+	cyginstall
+
+	rm -fr ${D}/usr/share/locale
+}
