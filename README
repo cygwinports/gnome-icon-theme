@@ -6,14 +6,14 @@ Runtime requirements:
   hicolor-icon-theme-0.10-1
 
 Build requirements:
-  cygwin-1.5.25-11
-  cygport-0.3.11-1
+  cygwin-1.5.25-15
+  cygport-0.4.2-1
   gawk-3.1.6-1
   hicolor-icon-theme-0.10-1
   icon-naming-utils-0.8.6-1
-  intltool-0.37.1-1
+  intltool-0.40.5-1
   make-3.81-1
-  pkg-config-0.21-1
+  pkg-config-0.23a-2
 
 Canonical homepage:
   http://art.gnome.org/
@@ -24,25 +24,25 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnome-icon-theme-2.22.0-X-src.tar.bz2
+  unpack gnome-icon-theme-2.24.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnome-icon-theme-2.22.0-X.cygport all
+  cygport ./gnome-icon-theme-2.24.0-X.cygport all
 
 This will create:
-  /usr/src/gnome-icon-theme-2.22.0-X-src.tar.bz2
-  /usr/src/gnome-icon-theme-2.22.0-X.tar.bz2
+  /usr/src/gnome-icon-theme-2.24.0-X-src.tar.bz2
+  /usr/src/gnome-icon-theme-2.24.0-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/share/doc/gnome-icon-theme-2.22.0/ChangeLog
-  /usr/share/doc/gnome-icon-theme-2.22.0/COPYING
-  /usr/share/doc/gnome-icon-theme-2.22.0/INSTALL
-  /usr/share/doc/gnome-icon-theme-2.22.0/NEWS
-  /usr/share/doc/gnome-icon-theme-2.22.0/TODO
+  /usr/share/doc/gnome-icon-theme-2.24.0/ChangeLog
+  /usr/share/doc/gnome-icon-theme-2.24.0/COPYING
+  /usr/share/doc/gnome-icon-theme-2.24.0/INSTALL
+  /usr/share/doc/gnome-icon-theme-2.24.0/NEWS
+  /usr/share/doc/gnome-icon-theme-2.24.0/TODO
   /usr/share/icons/gnome/12x12/*/*
   /usr/share/icons/gnome/16x16/*/*
   /usr/share/icons/gnome/192x192/*/*
@@ -59,6 +59,9 @@ Files included in the binary package:
 ------------------------------------------
 
 Port Notes:
+
+----- version 2.24.0-1 -----
+Version bump for GNOME 2.24.
 
 ----- version 2.22.0-1 -----
 Version bump for GNOME 2.22.
