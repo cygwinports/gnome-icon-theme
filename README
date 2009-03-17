@@ -6,13 +6,13 @@ Runtime requirements:
   hicolor-icon-theme-0.10-1
 
 Build requirements:
-  cygwin-1.5.25-15
-  cygport-0.4.2-1
-  gawk-3.1.6-1
+  cygwin-1.7.0-43
+  cygport-0.9.5-1
+  gawk-3.1.6-2
   hicolor-icon-theme-0.10-1
-  icon-naming-utils-0.8.6-1
-  intltool-0.40.5-1
-  make-3.81-1
+  icon-naming-utils-0.8.90-1
+  intltool-0.40.6-1
+  make-3.81-2
   pkg-config-0.23a-2
 
 Canonical homepage:
@@ -24,25 +24,25 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnome-icon-theme-2.24.0-X-src.tar.bz2
+  unpack gnome-icon-theme-2.26.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnome-icon-theme-2.24.0-X.cygport all
+  cygport ./gnome-icon-theme-2.26.0-X.cygport all
 
 This will create:
-  /usr/src/gnome-icon-theme-2.24.0-X-src.tar.bz2
-  /usr/src/gnome-icon-theme-2.24.0-X.tar.bz2
+  /usr/src/gnome-icon-theme-2.26.0-X-src.tar.bz2
+  /usr/src/gnome-icon-theme-2.26.0-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/share/doc/gnome-icon-theme-2.24.0/ChangeLog
-  /usr/share/doc/gnome-icon-theme-2.24.0/COPYING
-  /usr/share/doc/gnome-icon-theme-2.24.0/INSTALL
-  /usr/share/doc/gnome-icon-theme-2.24.0/NEWS
-  /usr/share/doc/gnome-icon-theme-2.24.0/TODO
+  /usr/share/doc/gnome-icon-theme/ChangeLog
+  /usr/share/doc/gnome-icon-theme/COPYING
+  /usr/share/doc/gnome-icon-theme/INSTALL
+  /usr/share/doc/gnome-icon-theme/NEWS
+  /usr/share/doc/gnome-icon-theme/TODO
   /usr/share/icons/gnome/12x12/*/*
   /usr/share/icons/gnome/16x16/*/*
   /usr/share/icons/gnome/192x192/*/*
@@ -60,35 +60,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 2.24.0-1 -----
-Version bump for GNOME 2.24.
-
------ version 2.22.0-1 -----
-Version bump for GNOME 2.22.
-
------ version 2.20.0-1 -----
-Version bump for GNOME 2.20.
-
------ version 2.18.0-1 -----
-Version bump for GNOME 2.18.
-
------ version 2.16.1-1 -----
-Version bump.
-
------ version 2.16.0.1-1 -----
-Version bump for GNOME 2.16.
-
------ version 2.14.2-1 -----
-Version bump for GNOME 2.14.
-
------ version 2.12.1-1 -----
-Version bump for GNOME 2.12.
-
------ version 2.10.1-1 -----
-Version bump for GNOME 2.10.
-
------ version 2.8.0-1 -----
-Initial release for Cygwin.
+----- version 2.26.0-1 -----
+Initial release of GNOME 2.26 for Cygwin 1.7.
 
 
 Cygwin port maintained by:
