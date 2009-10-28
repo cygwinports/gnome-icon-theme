@@ -3,13 +3,13 @@ gnome-icon-theme
 GNOME desktop icon theme.
 
 Runtime requirements:
-  hicolor-icon-theme-0.10-1
+  hicolor-icon-theme-0.11-1
 
 Build requirements:
-  cygwin-1.7.0-43
-  cygport-0.9.5-1
-  gawk-3.1.6-2
-  hicolor-icon-theme-0.10-1
+  cygwin-1.7.0-62
+  cygport-0.9.11-1
+  gawk-3.1.7-1
+  hicolor-icon-theme-0.11-1
   icon-naming-utils-0.8.90-1
   intltool-0.40.6-1
   make-3.81-2
@@ -24,41 +24,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnome-icon-theme-2.26.0-X-src.tar.bz2
+  unpack gnome-icon-theme-2.28.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnome-icon-theme-2.26.0-X.cygport all
+  cygport ./gnome-icon-theme-2.28.0-X.cygport all
 
 This will create:
-  /usr/src/gnome-icon-theme-2.26.0-X-src.tar.bz2
-  /usr/src/gnome-icon-theme-2.26.0-X.tar.bz2
+  /usr/src/gnome-icon-theme-2.28.0-X-src.tar.bz2
+  /usr/src/gnome-icon-theme-2.28.0-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/share/doc/gnome-icon-theme/ChangeLog
-  /usr/share/doc/gnome-icon-theme/COPYING
-  /usr/share/doc/gnome-icon-theme/INSTALL
-  /usr/share/doc/gnome-icon-theme/NEWS
-  /usr/share/doc/gnome-icon-theme/TODO
-  /usr/share/icons/gnome/12x12/*/*
-  /usr/share/icons/gnome/16x16/*/*
-  /usr/share/icons/gnome/192x192/*/*
-  /usr/share/icons/gnome/24x24/*/*
-  /usr/share/icons/gnome/32x32/*/*
-  /usr/share/icons/gnome/36x36/*/*
-  /usr/share/icons/gnome/48x48/*/*
-  /usr/share/icons/gnome/72x72/*/*
-  /usr/share/icons/gnome/96x96/*/*
-  /usr/share/icons/gnome/index.theme
-  /usr/share/icons/gnome/scalable/*/*
-  /usr/share/pkgconfig/gnome-icon-theme.pc
-
-------------------------------------------
-
 Port Notes:
+
+----- version 2.28.0-1 -----
+Version bump for GNOME 2.28.
 
 ----- version 2.26.0-1 -----
 Initial release of GNOME 2.26 for Cygwin 1.7.
