@@ -3,6 +3,8 @@ inherit gnome2
 DESCRIPTION="GNOME Icon Themes"
 HOMEPAGE="http://art.gnome.org/"
 
+DIFF_EXCLUDES="Makefile.in.in"
+
 src_install() {
 	cd ${B}
 	cyginstall
