@@ -9,5 +9,6 @@ src_install() {
 	cd ${B}
 	cyginstall
 
+	rm -f ${D}/usr/share/icons/*/icon-theme.cache
 	rm -fr ${D}/usr/share/locale
 }
